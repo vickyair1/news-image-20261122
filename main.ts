@@ -1,16 +1,19 @@
 // The World Today — Sunday 22 November 2026 (Node 22, stdlib only).
 //
 // The entry is the dense one-page newspaper next to this file (entry.png,
-// 1024x1024): 36 verified stories from Sunday 22 November 2026 across 7
+// 1024x1024): 28 verified stories from Sunday 22 November 2026 across 7
 // regions — three leads (COP31 closing in on a deal at dawn in Antalya,
-// Iran's overnight strikes on US bases in Bahrain, Nepal's PM flying to
-// Delhi on his first state visit), ten feature cards, 23 one-line briefs,
+// Iran's overnight strikes on US bases in Bahrain, the Sparta II still
+// ablaze in the Gulf of Finland), ten feature cards, 15 one-line briefs,
 // a stat strip, a region tally, a dotted world map with numbered pins, a
 // DATE CHECK box of earlier stories deliberately left out, and a source
-// footer. The page was drawn with Python/PIL (see the build script in the
-// working directory, not part of this repo); every picture on it is a drawn
-// illustration, every word rendered as text, nothing copied from any other
-// entry.
+// footer. Round 2 of this entry: the lead hierarchy was rebuilt around the
+// burning freighter, COP31 was de-padded from 8 stories to 4, all briefs
+// are verified Sunday stories with no stale date tags, and the lead art was
+// redrawn richer with no label chips on the art. The page was drawn with
+// Python/PIL (see the build script in the working directory, not part of
+// this repo); every picture on it is a drawn illustration, every word
+// rendered as text, nothing copied from any other entry.
 //
 // This program only hands the finished image over: it reads entry.png,
 // checks it really is a PNG of at most 1 MiB, and writes those exact
